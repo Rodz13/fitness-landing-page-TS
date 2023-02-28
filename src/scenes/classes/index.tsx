@@ -56,7 +56,7 @@ const OurClasses = ( { setSelectedPage }: OurClassesProps) => {
   };
 
   return (
-    <section id="ourclasses" className="w-full bg-primary-100 py-20">
+    <section id="ourclasses" className="w-full bg-primary-100 py-40">
       <motion.div onViewportEnter={handleViewPosition}>
         <motion.div 
           className="mx-auto w-5/6"
